@@ -1,7 +1,11 @@
 #include <iostream>
-
+#include<string>
 int main()
+using namespace std;
 {
-  std::cout << "hello git" << std::endl;
-  return 1;
+string name; 
+cout<< "What is your name?" << endl;
+cin >> name;
+cout<<"Hello " << name << "!" << endl;
+return 1;
 }
