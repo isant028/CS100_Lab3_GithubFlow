@@ -1,5 +1,5 @@
 #include "c-echo.h"
-
+#include "c-count.h"
 #include "gtest/gtest.h"
 
 TEST(EchoTest, HelloWorld) {
